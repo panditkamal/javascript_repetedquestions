@@ -143,7 +143,7 @@
       })();
       ```
 
-      **[⬆ Back to Top](#table-of-contents)**
+      **[-](#table-of-contents)**
 
 2. ### What is a prototype chain
 
@@ -153,7 +153,7 @@
 
    ![Screenshot](images/prototype_chain.png)
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[-](#table-of-contents)**
 
 3. ### What is the difference between Call, Apply and Bind
 
@@ -213,7 +213,7 @@
 
    Bind creates a new function that will have `this` set to the first parameter passed to bind().
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[-](#table-of-contents)**
 
 4. ### What is JSON and its common operations
 
@@ -231,7 +231,7 @@
    JSON.stringify(object);
    ```
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[-](#table-of-contents)**
 
 5. ### What is the purpose of the array slice method
 
@@ -249,7 +249,7 @@
 
    **Note:** Slice method doesn't mutate the original array but it returns the subset as a new array.
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[-](#table-of-contents)**
 
 6. ### What is the purpose of the array splice method
 
@@ -269,7 +269,7 @@
 
    **Note:** Splice method modifies the original array and returns the deleted array.
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[-](#table-of-contents)**
 
 7. ### What is the difference between slice and splice
 
@@ -281,7 +281,7 @@
    | Returns the subset of original array         | Returns the deleted elements as array           |
    | Used to pick the elements from array         | Used to insert/delete elements to/from array |
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[-](#table-of-contents)**
 
 8. ### How do you compare Object and Map
 
@@ -294,7 +294,7 @@
    5. An Object has a prototype, so there are default keys in an object that could collide with your keys if you're not careful. As of ES5 this can be bypassed by creating an object(which can be called a map) using `Object.create(null)`, but this practice is seldom done.
    6. A Map may perform better in scenarios involving frequent addition and removal of key pairs.
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[-](#table-of-contents)**
 
 9. ### What is the difference between == and === operators
 
@@ -326,7 +326,7 @@
    {}=={} or {}==={} //false, refer different objects in memory
    ```
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[-](#table-of-contents)**
 
 10. ### What are lambda expressions or arrow functions
 
@@ -339,7 +339,7 @@
     const arrowFunc3 = () => {} // no parameters
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 11. ### What is a first class function
 
@@ -352,7 +352,7 @@
     document.addEventListener("click", handler);
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 12. ### What is a first order function
 
@@ -362,7 +362,7 @@
     const firstOrder = () => console.log("I am a first order function!");
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 13. ### What is a higher order function
 
@@ -379,7 +379,7 @@
 
     The higher order function is helpful to write the modular and reusable code. 
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 14. ### What is a unary function
 
@@ -391,7 +391,7 @@
     const unaryFunction = (a) => console.log(a + 10); // Add 10 to the given argument and display the value
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 15. ### What is the currying function
 
@@ -411,7 +411,7 @@
 
     Curried functions are great to improve **code reusability** and **functional composition**.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 16. ### What is a pure function
 
@@ -438,7 +438,7 @@
 
     Remember that Pure functions are important as they simplify unit testing without any side effects and no need for dependency injection. They also avoid tight coupling and make it harder to break your application by not having any side effects. These principles are coming together with the **Immutability** concept of ES6: giving preference to **const** over **let** usage.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 17. ### What is the purpose of the let keyword
 
@@ -455,7 +455,7 @@
     console.log(counter); // 30 (because the variable in if block won't exist here)
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 18. ### What is the difference between let and var
 
@@ -484,13 +484,13 @@
     userDetails("John");
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 19. ### What is the reason to choose the name let as a keyword
 
     `let` is a mathematical statement that was adopted by early programming languages like **Scheme** and **Basic**. It has been borrowed from dozens of other languages that use `let` already as a traditional keyword as close to `var` as possible.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 20. ### How do you redeclare variables in a switch block without an error
 
@@ -525,7 +525,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 21. ### What is the Temporal Dead Zone
 
@@ -542,7 +542,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 22. ### What is an IIFE (Immediately Invoked Function Expression)
 
@@ -564,7 +564,7 @@
     console.log(message); //Error: message is not defined
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 23. ### How do you decode or encode a URL in JavaScript?
 
@@ -579,7 +579,7 @@
     let decoded_uri = decodeURI(encoded_uri);
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 24. ### What is memoization
 
@@ -607,7 +607,7 @@
     console.log(addition(20)); //output: 40 cached
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 25. ### What is Hoisting
 
@@ -639,7 +639,7 @@
 
     This hoisting makes functions to be safely used in code before they are declared.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 26. ### What are classes in ES6
 
@@ -672,7 +672,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 27. ### What are closures
 
@@ -698,13 +698,13 @@
 
     As per the above code, the inner function(i.e, greetingInfo) has access to the variables in the outer function scope(i.e, Welcome) even after the outer function has returned.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 28. ### What are modules
 
     Modules refer to small units of independent, reusable code and also act as the foundation of many JavaScript design patterns. Most of the JavaScript modules export an object literal, a function, or a constructor
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 29. ### Why do you need modules
 
@@ -714,37 +714,37 @@
     2. Reusability
     3. Namespacing
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 30. ### What is scope in javascript
 
     Scope is the accessibility of variables, functions, and objects in some particular part of your code during runtime. In other words, scope determines the visibility of variables and other resources in areas of your code.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 31. ### What is a service worker
 
     A Service worker is basically a script (JavaScript file) that runs in the background, separate from a web page and provides features that don't need a web page or user interaction. Some of the major features of service workers are Rich offline experiences(offline first web application development), periodic background syncs, push notifications, intercept and handle network requests and programmatically managing a cache of responses.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 32. ### How do you manipulate DOM using a service worker
 
     Service worker can't access the DOM directly. But it can communicate with the pages it controls by responding to messages sent via the `postMessage` interface, and those pages can manipulate the DOM.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 33. ### How do you reuse information across service worker restarts
 
     The problem with service worker is that it gets terminated when not in use, and restarted when it's next needed, so you cannot rely on global state within a service worker's `onfetch` and `onmessage` handlers. In this case, service workers will have access to IndexedDB API in order to persist and reuse across restarts.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 34. ### What is IndexedDB
 
     IndexedDB is a low-level API for client-side storage of larger amounts of structured data, including files/blobs. This API uses indexes to enable high-performance searches of this data.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 35. ### What is web storage
 
@@ -753,13 +753,13 @@
     1. **Local storage:** It stores data for current origin with no expiration date.
     2. **Session storage:** It stores data for one session and the data is lost when the browser tab is closed.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 36. ### What is a post message
 
     Post message is a method that enables cross-origin communication between Window objects.(i.e, between a page and a pop-up that it spawned, or between a page and an iframe embedded within it). Generally, scripts on different pages are allowed to access each other if and only if the pages follow same-origin policy(i.e, pages share the same protocol, port number, and host).
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 37. ### What is a Cookie
 
@@ -772,7 +772,7 @@
 
     ![Screenshot](images/cookie.png)
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 38. ### Why do you need a Cookie
 
@@ -781,7 +781,7 @@
     1. When a user visits a web page, the user profile can be stored in a cookie.
     2. Next time the user visits the page, the cookie remembers the user profile.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 39. ### What are the options in a cookie
 
@@ -799,7 +799,7 @@
     document.cookie = "username=John; path=/services";
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 40. ### How do you delete a cookie
 
@@ -813,7 +813,7 @@
 
     **Note:** You should define the cookie path option to ensure that you delete the right cookie. Some browsers doesn't allow to delete a cookie unless you specify a path parameter.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 41. ### What are the differences between cookie, local storage and session storage
 
@@ -828,13 +828,13 @@
     | Accessible from                            | Any window | Any window | Same tab |
     | Sent with requests | Yes | No | No |
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 42. ### What is the main difference between localStorage and sessionStorage
 
     LocalStorage is the same as SessionStorage but it persists the data even when the browser is closed and reopened(i.e it has no expiration time) whereas in sessionStorage data gets cleared when the page session ends.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 43. ### How do you access web storage
 
@@ -846,7 +846,7 @@
     localStorage.getItem("logo");
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 44. ### What are the methods available on session storage
 
@@ -866,7 +866,7 @@
     sessionStorage.clear();
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 45. ### What is a storage event and its event handler
 
@@ -893,13 +893,13 @@
     };
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 46. ### Why do you need web storage
 
     Web storage is more secure, and large amounts of data can be stored locally, without affecting website performance. Also, the information is never transferred to the server. Hence this is a more recommended approach than Cookies.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 47. ### How do you check web storage browser support
 
@@ -913,7 +913,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 48. ### How do you check web workers browser support
 
@@ -927,7 +927,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 49. ### Give an example of a web worker
 
@@ -978,7 +978,7 @@
     w = undefined;
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 50. ### What are the restrictions of web workers on DOM
 
@@ -988,7 +988,7 @@
     2. Document object
     3. Parent object
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 51. ### What is a promise
 
@@ -1021,13 +1021,13 @@
 
     ![Screenshot](images/promises.png)
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 52. ### Why do you need a promise
 
     Promises are used to handle asynchronous operations. They provide an alternative approach for callbacks by reducing the callback hell and writing the cleaner code.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 53. ### What are the three states of promise
 
@@ -1037,7 +1037,7 @@
     2. **Fulfilled:** This state indicates that the specified operation was completed.
     3. **Rejected:** This state indicates that the operation did not complete. In this case an error value will be thrown.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 54. ### What is a callback function
 
@@ -1057,7 +1057,7 @@
     outerFunction(callbackFunction);
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 55. ### Why do we need callbacks
 
@@ -1084,7 +1084,7 @@
 
     As observed from the output, javascript didn't wait for the response of the first function and the remaining code block got executed. So callbacks are used in a way to make sure that certain code doesn’t execute until the other code finishes execution.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 56. ### What is a callback hell
 
@@ -1102,13 +1102,13 @@
     });
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 57. ### What are server-sent events
 
     Server-sent events (SSE) is a server push technology enabling a browser to receive automatic updates from a server via HTTP connection without resorting to polling. These are a one way communications channel - events flow from server to client only. This has been used in Facebook/Twitter updates, stock price updates, news feeds etc.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 58. ### How do you receive server-sent event notifications
 
@@ -1123,7 +1123,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 59. ### How do you check browser support for server-sent events
 
@@ -1137,7 +1137,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 60. ### What are the events available for server sent events
 
@@ -1148,7 +1148,7 @@
     | onmessage | This event is used when a message is received |
     | onerror | It happens when an error occurs|
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 61. ### What are the main rules of promise
 
@@ -1159,7 +1159,7 @@
     3. A fulfilled or rejected promise is settled and it must not transition into any other state.
     4. Once a promise is settled, the value must not change.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 62. ### What is callback in callback
 
@@ -1180,7 +1180,7 @@
     });
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 63. ### What is promise chaining
 
@@ -1211,7 +1211,7 @@
     3. After that the value passed to the next `.then` handler by logging the result(2) and return a promise with result \* 3.
     4. Finally the value passed to the last `.then` handler by logging the result(6) and return a promise with result \* 4.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 64. ### What is promise.all
 
@@ -1223,7 +1223,7 @@
 
     **Note:** Remember that the order of the promises(output the result) is maintained as per input order.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 65. ### What is the purpose of the race method in promise
 
@@ -1242,19 +1242,19 @@
     });
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 66. ### What is a strict mode in javascript
 
     Strict Mode is a new feature in ECMAScript 5 that allows you to place a program, or a function, in a “strict” operating context. This way it prevents certain actions from being taken and throws more exceptions. The literal expression `"use strict";` instructs the browser to use the javascript code in the Strict mode.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 67. ### Why do you need strict mode
 
     Strict mode is useful to write "secure" JavaScript by notifying "bad syntax" into real errors. For example, it eliminates accidentally creating a global variable by throwing an error and also throws an error for assignment to a non-writable property, a getter-only property, a non-existing property, a non-existing variable, or a non-existing object.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 68. ### How do you declare strict mode
 
@@ -1278,7 +1278,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 69. ### What is the purpose of double exclamation
 
@@ -1299,7 +1299,7 @@
 
     **Note:** The expression !! is not an operator, but it is just twice of ! operator.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 70. ### What is the purpose of the delete operator
 
@@ -1312,7 +1312,7 @@
     console.log(user); // {firstName: "John", lastName:"Doe"}
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 71. ### What is typeof operator
 
@@ -1324,7 +1324,7 @@
     typeof [1, 2, 3]; // Returns "object" because all arrays are also objects
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 72. ### What is undefined property
 
@@ -1341,7 +1341,7 @@
     user = undefined;
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 73. ### What is null value
 
@@ -1353,7 +1353,7 @@
     console.log(typeof user); //object
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 74. ### What is the difference between null and undefined
 
@@ -1367,7 +1367,7 @@
     | Indicates the absence of a value for a variable                                                 | Indicates absence of variable itself                                                                    |
     | Converted to zero (0) while performing primitive operations                                     | Converted to NaN while performing primitive operations                                                  |
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 75. ### What is eval
 
@@ -1377,7 +1377,7 @@
     console.log(eval("1 + 2")); //  3
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 76. ### What is the difference between window and document
 
@@ -1389,7 +1389,7 @@
     | By default window object is available implicitly in the page                  | You can access it via window.document or document.                                            |
     | It has methods like alert(), confirm() and properties like document, location | It provides methods like getElementById, getElementsByTagName, createElement etc              |
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 77. ### How do you access history in javascript
 
@@ -1406,7 +1406,7 @@
 
     **Note:** You can also access history without window prefix.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 78. ### How do you detect caps lock key turned on or not
 
@@ -1432,7 +1432,7 @@
     </script>
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 79. ### What is isNaN
 
@@ -1443,7 +1443,7 @@
     isNaN("100"); //false
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 80. ### What are the differences between undeclared and undefined variables
 
@@ -1454,7 +1454,7 @@
     | These variables do not exist in a program and are not declared                              | These variables declared in the program but have not assigned any value                |
     | If you try to read the value of an undeclared variable, then a runtime error is encountered | If you try to read the value of an undefined variable, an undefined value is returned. |
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 81. ### What are global variables
 
@@ -1464,13 +1464,13 @@
     msg = "Hello"; // var is missing, it becomes global variable
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 82. ### What are the problems with global variables
 
     The problem with global variables is the conflict of variable names of local and global scope. It is also difficult to debug and test the code that relies on global variables.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 83. ### What is NaN property
 
@@ -1481,7 +1481,7 @@
     parseInt("Hello");
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 84. ### What is the purpose of isFinite function
 
@@ -1495,7 +1495,7 @@
     isFinite(100); // true
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 85. ### What is an event flow
 
@@ -1506,7 +1506,7 @@
     1. Top to Bottom(Event Capturing)
     2. Bottom to Top (Event Bubbling)
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 86. ### What is event bubbling
 
@@ -1537,7 +1537,7 @@
     // Parent
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 87. ### What is event capturing
 
@@ -1569,7 +1569,7 @@
     // Child
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 88. ### How do you submit a form using JavaScript
 
@@ -1581,7 +1581,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 89. ### How do you find operating system details
 
@@ -1591,13 +1591,13 @@
     console.log(navigator.platform);
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 90. ### What is the difference between document load and DOMContentLoaded events
 
     The `DOMContentLoaded` event is fired when the initial HTML document has been completely loaded and parsed, without waiting for assets(stylesheets, images, and subframes) to finish loading. Whereas The load event is fired when the whole page has loaded, including all dependent resources(stylesheets, images).
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 91. ### What is the difference between native, host and user objects
 
@@ -1607,7 +1607,7 @@
     For example, window, XmlHttpRequest, DOM nodes etc are considered as host objects.
     `User objects` are objects defined in the javascript code. For example, User objects created for profile information.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 92. ### What are the tools or techniques used for debugging JavaScript code
 
@@ -1617,7 +1617,7 @@
     2. debugger statement
     3. Good old console.log statement
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 93. ### What are the pros and cons of promises over callbacks
 
@@ -1635,7 +1635,7 @@
     1. It makes little complex code
     2. You need to load a polyfill if ES6 is not supported
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 94. ### What is the difference between an attribute and a property
 
@@ -1660,13 +1660,13 @@
     console.log(input.value); // Good evening
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 95. ### What is same-origin policy
 
     The same-origin policy is a policy that prevents JavaScript from making requests across domain boundaries. An origin is defined as a combination of URI scheme, hostname, and port number. If you enable this policy then it prevents a malicious script on one page from obtaining access to sensitive data on another web page using Document Object Model(DOM).
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 96. ### What is the purpose of void 0
 
@@ -1679,25 +1679,25 @@
     </a>
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 97. ### Is JavaScript a compiled or interpreted language
 
     JavaScript is an interpreted language, not a compiled language. An interpreter in the browser reads over the JavaScript code, interprets each line, and runs it. Nowadays modern browsers use a technology known as Just-In-Time (JIT) compilation, which compiles JavaScript to executable bytecode just as it is about to run.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 98. ### Is JavaScript a case-sensitive language
 
     Yes, JavaScript is a case sensitive language. The language keywords, variables, function & object names, and any other identifiers must always be typed with a consistent capitalization of letters.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 99. ### Is there any relation between Java and JavaScript
 
     No, they are entirely two different programming languages and have nothing to do with each other. But both of them are Object Oriented Programming languages and like many other languages, they follow similar syntax for basic features(if, else, for, switch, break, continue etc).
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[-](#table-of-contents)**
 
 100. ### What are events
 
@@ -1725,13 +1725,13 @@
      </html>
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 101. ### Who created javascript
 
      JavaScript was created by Brendan Eich in 1995 during his time at Netscape Communications. Initially it was developed under the name `Mocha`, but later the language was officially called `LiveScript` when it first shipped in beta releases of Netscape.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 102. ### What is the use of preventDefault method
 
@@ -1747,7 +1747,7 @@
 
      **Note:** Remember that not all events are cancelable.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 103. ### What is the use of stopPropagation method
 
@@ -1771,7 +1771,7 @@
      </script>
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 104. ### What are the steps involved in return false usage
 
@@ -1781,7 +1781,7 @@
      2. It prevents the event from propagating the DOM
      3. Stops callback execution and returns immediately when called.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 105. ### What is BOM
 
@@ -1789,7 +1789,7 @@
 
      ![Screenshot](images/bom.png)
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 106. ### What is the use of setTimeout
 
@@ -1801,7 +1801,7 @@
      }, 2000);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 107. ### What is the use of setInterval
 
@@ -1813,13 +1813,13 @@
      }, 2000);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 108. ### Why is JavaScript treated as Single threaded
 
      JavaScript is a single-threaded language. Because the language specification does not allow the programmer to write code so that the interpreter can run parts of it in parallel in multiple threads or processes. Whereas languages like java, go, C++ can make multi-threaded and multi-process programs.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 109. ### What is an event delegation
 
@@ -1841,19 +1841,19 @@
      );
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 110. ### What is ECMAScript
 
      ECMAScript is the scripting language that forms the basis of JavaScript. ECMAScript standardized by the ECMA International standards organization in the ECMA-262 and ECMA-402 specifications. The first edition of ECMAScript was released in 1997.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 111. ### What is JSON
 
      JSON (JavaScript Object Notation) is a lightweight format that is used for data interchanging. It is based on a subset of JavaScript language in the way objects are built in JavaScript.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 112. ### What are the syntax rules of JSON
 
@@ -1864,7 +1864,7 @@
      3. Curly braces hold objects
      4. Square brackets hold arrays
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 113. ### What is the purpose JSON stringify
 
@@ -1876,7 +1876,7 @@
      console.log(userString); //"{"name":"John","age":31}"
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 114. ### How do you parse JSON string
 
@@ -1888,19 +1888,19 @@
      console.log(userJSON); // {name: "John", age: 31}
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 115. ### Why do you need JSON
 
      When exchanging data between a browser and a server, the data can only be text. Since JSON is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 116. ### What are PWAs
 
      Progressive web applications (PWAs) are a type of mobile app delivered through the web, built using common web technologies including HTML, CSS and JavaScript. These PWAs are deployed to servers, accessible through URLs, and indexed by search engines.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 117. ### What is the purpose of clearTimeout method
 
@@ -1925,7 +1925,7 @@
      </script>
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 118. ### What is the purpose of clearInterval method
 
@@ -1950,7 +1950,7 @@
      </script>
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 119. ### How do you redirect new page in javascript
 
@@ -1962,7 +1962,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 120. ### How do you check whether a string contains a substring
 
@@ -1992,7 +1992,7 @@
      regex.test(mainString);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 121. ### How do you validate an email in javascript
 
@@ -2006,7 +2006,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
      The above regular expression accepts unicode characters.
 
@@ -2018,7 +2018,7 @@
      console.log("location.href", window.location.href); // Returns full URL
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 123. ### What are the various url properties of location object
 
@@ -2033,7 +2033,7 @@
      7. search - The query portion of the URL
      8. hash - The anchor portion of the URL
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 124. ### How do get query string values in javascript
 
@@ -2044,7 +2044,7 @@
      const clientCode = urlParams.get("clientCode");
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 125. ### How do you check if a key exists in an object
 
@@ -2079,7 +2079,7 @@
         console.log(user.nickName !== undefined); // false
         ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 126. ### How do you loop through or enumerate javascript object
 
@@ -2099,7 +2099,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 127. ### How do you test for an empty object
 
@@ -2131,7 +2131,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 128. ### What is an arguments object
 
@@ -2155,7 +2155,7 @@
      var argsArray = Array.prototype.slice.call(arguments);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 129. ### How do you make first letter of the string in an uppercase
 
@@ -2167,7 +2167,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 130. ### What are the pros and cons of for loops
 
@@ -2184,7 +2184,7 @@
      4. Imperative
      5. You might face off-by-one errors.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 131. ### How do you display the current date in javascript
 
@@ -2200,7 +2200,7 @@
      document.write(today);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 132. ### How do you compare two date objects
 
@@ -2213,7 +2213,7 @@
      console.log(d1 === d2); // False
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 133. ### How do you check if a string starts with another string
 
@@ -2224,7 +2224,7 @@
      "Good morning".startsWith("morning"); // false
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 134. ### How do you trim a string in javascript
 
@@ -2248,7 +2248,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 135. ### How do you add a key value pair in javascript
 
@@ -2275,7 +2275,7 @@
      obj["key3"] = "value3";
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 136. ### Is the !-- notation represents a special operator
 
@@ -2286,7 +2286,7 @@
 
      At first, the value decremented by one and then tested to see if it is equal to zero or not for determining the truthy/falsy value.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 137. ### How do you assign default values to variables
 
@@ -2298,7 +2298,7 @@
 
      As per the above expression, variable 'a 'will get the value of 'c' only if 'b' is falsy (if is null, false, undefined, 0, empty string, or NaN), otherwise 'a' will get the value of 'b'.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 138. ### How do you define multiline strings
 
@@ -2312,13 +2312,13 @@
 
      But if you have a space after the '\n' character, there will be indentation inconsistencies.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 139. ### What is an app shell model
 
      An application shell (or app shell) architecture is one way to build a Progressive Web App that reliably and instantly loads on your users' screens, similar to what you see in native applications. It is useful for getting some initial HTML to the screen fast without a network.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 140. ### Can we define properties for functions
 
@@ -2336,7 +2336,7 @@
      };
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 141. ### What is the way to find the number of parameters expected by a function
 
@@ -2349,7 +2349,7 @@
      sum.length; // 4 is the number of parameters expected.
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 142. ### What is a polyfill
 
@@ -2359,7 +2359,7 @@
      1. **Core.js**: It is a modular javascript library used for cutting-edge ECMAScript features.
      2. **Polyfill.io:** It provides polyfills that are required for browser needs.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 143. ### What are break and continue statements
 
@@ -2385,7 +2385,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 144. ### What are js labels
 
@@ -2409,7 +2409,7 @@
      //   "i = 2, j = 1"
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 145. ### What are the benefits of keeping declarations at the top
 
@@ -2420,7 +2420,7 @@
      3. Easy to avoid unwanted global variables
      4. It reduces the possibility of unwanted re-declarations
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 146. ### What are the benefits of initializing variables
 
@@ -2430,7 +2430,7 @@
      2. It provides a single place to initialize variables
      3. Avoid undefined values in the code
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 147. ### What are the recommendations to create new object
 
@@ -2456,7 +2456,7 @@
      var v7 = function () {};
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 148. ### How do you define JSON arrays
 
@@ -2470,7 +2470,7 @@
      ]
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 149. ### How do you generate random integers
 
@@ -2483,7 +2483,7 @@
 
      **Note:** Math.random() returns a random number between 0 (inclusive), and 1 (exclusive)
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 150. ### Can you write a random integers function to print integers within a range
 
@@ -2497,25 +2497,25 @@
      randomInteger(1, 1000); // returns a random integer from 1 to 1000
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 151. ### What is tree shaking
 
      Tree shaking is a form of dead code elimination. It means that unused modules will not be included in the bundle during the build process and for that it relies on the static structure of ES2015 module syntax,( i.e. import and export). Initially this has been popularized by the ES2015 module bundler `rollup`.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 152. ### What is the need of tree shaking
 
      Tree Shaking can significantly reduce the code size in any application. i.e, The less code we send over the wire the more performant the application will be. For example, if we just want to create a “Hello World” Application using SPA frameworks then it will take around a few MBs, but by tree shaking it can bring down the size to just a few hundred KBs. Tree shaking is implemented in Rollup and Webpack bundlers.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 153. ### Is it recommended to use eval
 
      No, it allows arbitrary code to be run which causes a security problem. As we know that the eval() function is used to run text as code. In most of the cases, it should not be necessary to use it.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 154. ### What is a Regular Expression
 
@@ -2531,7 +2531,7 @@
      /John/i;
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 155. ### What are the string methods that accept Regular expression
 
@@ -2567,7 +2567,7 @@
      var n = msg.split(/\s/); // ["Hello", "John"]
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 156. ### What are modifiers in regular expression
 
@@ -2587,7 +2587,7 @@
      var result = text.match(pattern); // one,one
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 157. ### What are regular expression patterns
 
@@ -2609,7 +2609,7 @@
         2. n\*: Used to find matches for any string that contains zero or more occurrences of n
         3. n?: Used to find matches for any string that contains zero or one occurrences of n
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 158. ### What is a RegExp object
 
@@ -2621,7 +2621,7 @@
      // expected output: /\w+/
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 159. ### How do you search a string for a pattern
 
@@ -2632,7 +2632,7 @@
      console.log(pattern.test("How are you?")); //true
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 160. ### What is the purpose of exec method
 
@@ -2643,7 +2643,7 @@
      console.log(pattern.exec("How are you?")); //["you", index: 8, input: "How are you?", groups: undefined]
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 161. ### How do you change the style of a HTML element
 
@@ -2661,13 +2661,13 @@
      document.getElementById("title").className = "custom-title";
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 162. ### What would be the result of 1+2+'3'
 
      The output is going to be `33`. Since `1` and `2` are numeric values, the result of the first two digits is going to be a numeric value `3`. The next digit is a string type value because of that the addition of numeric value `3` and string type value `3` is just going to be a concatenation value `33`.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 163. ### What is a debugger statement
 
@@ -2683,13 +2683,13 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 164. ### What is the purpose of breakpoints in debugging
 
      You can set breakpoints in the javascript code once the debugger statement is executed and the debugger window pops up. At each breakpoint, javascript will stop executing, and let you examine the JavaScript values. After examining values, you can resume the execution of code using the play button.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 165. ### Can I use reserved words as identifiers
 
@@ -2699,7 +2699,7 @@
      var else = "hello"; // Uncaught SyntaxError: Unexpected token else
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 166. ### How do you detect a mobile browser
 
@@ -2723,7 +2723,7 @@
      };
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 167. ### How do you detect a mobile browser without regexp
 
@@ -2747,7 +2747,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 168. ### How do you get the image width and height using JS
 
@@ -2761,7 +2761,7 @@
      img.src = "http://www.google.com/intl/en_ALL/images/logo.gif";
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 169. ### How do you make synchronous HTTP request
 
@@ -2776,7 +2776,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 170. ### How do you make asynchronous HTTP request
 
@@ -2794,7 +2794,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 171. ### How do you convert date to another timezone in javascript
 
@@ -2804,7 +2804,7 @@
      console.log(event.toLocaleString("en-GB", { timeZone: "UTC" })); //29/06/2019, 09:56:00
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 172. ### What are the properties used to get size of window
 
@@ -2822,7 +2822,7 @@
        document.body.clientHeight;
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 173. ### What is a conditional operator in javascript
 
@@ -2835,7 +2835,7 @@
      ); //Sorry, you are not authenticated
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 174. ### Can you apply chaining on conditional operator
 
@@ -2867,7 +2867,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 175. ### What are the ways to execute javascript after page load
 
@@ -2891,7 +2891,7 @@
      <body onload="script();">
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 176. ### What is the difference between proto and prototype
 
@@ -2911,7 +2911,7 @@
      | ECMAScript | Introduced in ES6                                            | Introduced in ES5                                          |
      | Usage      | Frequently used                                              | Rarely used                                                |
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 177. ### Can you give an example of when you really need a semicolon
 
@@ -2943,7 +2943,7 @@
 
      In this case, we are passing the second function as an argument to the first function and then trying to call the result of the first function call as a function. Hence, the second function will fail with a "... is not a function" error at runtime.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 178. ### What is a freeze method
 
@@ -2977,7 +2977,7 @@
 
      **Note:** It causes a TypeError if the argument passed is not an object.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 179. ### What is the purpose of freeze method
 
@@ -2986,13 +2986,13 @@
      1. It is used for freezing objects and arrays.
      2. It is used to make an object immutable.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 180. ### Why do I need to use freeze method
 
      In the Object-oriented paradigm, an existing API contains certain elements that are not intended to be extended, modified, or re-used outside of their current context. Hence it works as the `final` keyword which is used in various languages.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 181. ### How do you detect a browser language preference
 
@@ -3007,7 +3007,7 @@
      console.log(language);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 182. ### How to convert string to title case with javascript
 
@@ -3022,7 +3022,7 @@
      toTitleCase("good morning john"); // Good Morning John
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 183. ### How do you detect javascript disabled in the page
 
@@ -3037,7 +3037,7 @@
      </noscript>
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 184. ### What are various operators supported by javascript
 
@@ -3050,7 +3050,7 @@
      5. **Ternary Operators:** It includes conditional(: ?) Operator
      6. **typeof Operator:** It uses to find type of variable. The syntax looks like `typeof variable`
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 185. ### What is a rest parameter
 
@@ -3081,7 +3081,7 @@
 
      **Note:** Rest parameter is added in ES2015 or ES6
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 186. ### What happens if you do not use rest parameter as a last argument
 
@@ -3094,7 +3094,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
 
 187. ### What are the bitwise operators available in javascript
 
@@ -3108,4 +3108,4 @@
      6. Sign Propagating Right Shift ( >> )
      7. Zero fill Right Shift ( >>> )
 
-     **[⬆ Back to Top](#table-of-contents)**
+     **[-](#table-of-contents)**
