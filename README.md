@@ -92,6 +92,10 @@ A - Mongoose allows us to: map the model attributes and requirements to the data
 19. Is ExpressJS frontend or backend?
 A - Express. js is used as a backend in certain popular stacks, such as MERN (a Node. js framework). Between the frontend and the backend, multiple components can be reused.
 
+```javascript 
+console.log(a+b+c)
+```
+
 
 20 Oprators that are used in us
 A - 
